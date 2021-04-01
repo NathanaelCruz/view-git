@@ -48,4 +48,7 @@
   2. `npm run test` - Realiza os testes atravs do jest rodando as pastas que realmente possuem algum teste válido.
   3. `npm run test:watch` - Funciona como o test acima porém ele fica "escutando" e validando caso haja alguma mudança.
 
+## Deploy
+  O Deploy foi feito na vercel. através do link [vercel](https://view-git-25z4ojm8c-nathanaelcruz.vercel.app/) é possível visualizar
+
 Desenvolvido em **2021**
