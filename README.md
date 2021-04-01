@@ -1,8 +1,14 @@
 # VIEW GIT
 
 
-## MOTIVAÇÃO
+<section data-markdown>
+  
+  ![Screen 01](https://github.com/NathanaelCruz/images_resource_projects/blob/master/Images/view-git.png)
+  
+</section>
 
+## MOTIVAÇÃO
+  projeto desenvolvido para avaliação técnica da compasso para vaga de Desenvolvedor Front-End.
 
 ## TECNOLOGIAS UTILIZADAS
   Neste projeto tem algumas tecnologias atuais para um bom desenvolvimento e para performance do site. Dentre elas:
@@ -31,6 +37,7 @@
   2. Após a criação do projeto, pode realizar os seguintes comandos.
       1. `npm install` para inicializar a instalação dos pacotes
   3. Com isso já esta sendo possivel realizar o `npm run dev`, `npm run build` e `npm run start`
+  4. Caso queira em ambiente de produção, já está buildado para o `npm run start`
 
 ## Testes
   Para os testes terá os comando a seguir, porém, para melhor compreender, a forma que o boilerplate está montado é para o momento que for realizar um teste ele percorrer somente as pastas que de fato tem um teste dentro, ignorando alguns arquivos desnecessarios.
