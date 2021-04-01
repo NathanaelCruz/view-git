@@ -1,0 +1,5 @@
+export const URL_GIT = 'https://api.github.com/users/'
+export const TYPE_LIST_USERS = 'USERS'
+export const TYPE_LIST_REPOS = 'REPOS'
+export const TYPE_LIST_STARRED = 'STARRED'
+export const TYPE_LIST_NOT_FOUND = 'NOT_FOUND'

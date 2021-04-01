@@ -1,0 +1,306 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Header Deverá renderizar um header 1`] = `
+.c2 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c4 {
+  grid-area: search;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0.9rem;
+}
+
+.c5 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.c6 {
+  padding: 0.9rem 1.3rem 0.9rem 0.9rem;
+  border-radius: 5px;
+  width: 95%;
+}
+
+.c7 {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #24282E;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  border: none;
+  color: #FFFAFA;
+  position: absolute;
+  z-index: 5;
+  right: 0;
+  cursor: pointer;
+}
+
+.c7:hover {
+  background-color: #ed5140;
+}
+
+.c8 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.c9 {
+  min-width: 46%;
+  border: none;
+  padding: 0.9rem;
+  border-radius: 5px;
+  color: #FFFAFA;
+  background-color: #1C1F23;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.c9:hover {
+  background-color: #ed5140;
+}
+
+.c9 svg {
+  margin-right: 0.5rem;
+}
+
+.c0 {
+  background-color: #24282E;
+  width: 100%;
+  min-height: 10rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0.9rem;
+}
+
+.c1 {
+  grid-area: logo;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ed5140;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 {
+  font: 600 3rem 'Lobster',cursive;
+  color: #ed5140;
+}
+
+@media (min-width:767px) {
+  .c5 {
+    width: 50%;
+  }
+}
+
+@media (min-width:767px) {
+  .c8 {
+    width: 45%;
+    margin-top: 0;
+  }
+}
+
+@media (min-width:767px) {
+  .c0 {
+    display: grid;
+    grid-template: 'logo . search search . .';
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 1rem;
+  }
+}
+
+<header
+  class="c0 l-header"
+>
+  <a
+    class="c1 c-header__logo"
+  >
+    <svg
+      aria-hidden="true"
+      class="c2"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fill-rule="evenodd"
+      >
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 3v8h8V3H3zm6 6H5V5h4v4zm-6 4v8h8v-8H3zm6 6H5v-4h4v4zm4-16v8h8V3h-8zm6 6h-4V5h4v4zm-6 4v8h8v-8h-8zm6 6h-4v-4h4v4z"
+        />
+      </g>
+    </svg>
+    <h1
+      class="c3 c-header__title"
+    >
+      View Git
+    </h1>
+  </a>
+  <form
+    class="c4 c-search"
+    role="search"
+  >
+    <div
+      class="c5"
+      role="group"
+    >
+      <input
+        class="c6"
+        placeholder="Usuário GitHub Aqui!"
+        type="search"
+        value=""
+      />
+      <button
+        class="c7"
+        data-testid="button-search-name-user"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="c2"
+          fill="currentColor"
+          focusable="false"
+          height="16"
+          viewBox="0 0 24 24"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      class="c8 c-search__buttons"
+      role="group"
+    >
+      <button
+        class="c9 c-search__repo"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="c2"
+          fill="currentColor"
+          focusable="false"
+          height="16"
+          viewBox="0 0 24 24"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"
+          />
+        </svg>
+        Repos
+      </button>
+      <button
+        class="c9 c-search__starred"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="c2"
+          fill="currentColor"
+          focusable="false"
+          height="16"
+          viewBox="0 0 24 24"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0V0z"
+            fill="none"
+          />
+          <path
+            d="M20 6h-8l-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-2.06 11L15 15.28 12.06 17l.78-3.33-2.59-2.24 3.41-.29L15 8l1.34 3.14 3.41.29-2.59 2.24.78 3.33z"
+          />
+        </svg>
+        Starred
+      </button>
+    </div>
+  </form>
+</header>
+`;

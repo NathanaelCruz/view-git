@@ -1,0 +1,20 @@
+{
+    "name": "View Git",
+    "short_name": "View Git",
+    "icons": [{
+            "src": "/img/icon-118.png",
+            "type": "image/png",
+            "sizes": "118x118"
+        },
+        {
+            "src": "/img/icon-250.png",
+            "type": "image/png",
+            "sizes": "250x250"
+        }
+    ],
+    "background_color": "#FFFAFA",
+    "description": "Um projeto desenvolvido para entevista de Front End Developer com a Compasso.",
+    "display": "fullscreen",
+    "start_url": "/",
+    "theme_color": "#ed5140"
+}
